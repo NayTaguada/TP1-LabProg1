@@ -26,7 +26,8 @@ float multiplicar(float x, float y){
 }
 
 float factor(float x){
-    float resultado, factorial;
+    float resultado = 0;
+    float factorial = 1;
     int i = 0;
     for(i=x;i>0;i--){
         factorial = factorial * i;
