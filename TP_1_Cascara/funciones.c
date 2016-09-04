@@ -35,3 +35,16 @@ float factor(float x){
     return resultado;
 }
 
+int menu(int opcion){
+
+    int opcion;
+    char texto[270];
+    texto = "1- Ingresar 1er operando (A=x)\n2- Ingresar 2do operando (B=y)\n3- Calcular la suma (A+B)\n4- Calcular la resta (A-B)\n5- Calcular la division (A/B)\n6- Calcular la multiplicacion (A*B)\n7- Calcular el factorial (A!)\n8- Calcular todas las operacione\n9- Salir\n";
+
+    printf("%s",texto);
+
+    scanf("%d",&opcion);
+
+    return opcion;
+
+}

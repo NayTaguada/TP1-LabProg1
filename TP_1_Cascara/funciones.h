@@ -11,4 +11,6 @@ float multiplicar(float x, float y);
 
 float factor(float x);
 
+int menu(int opcion);
+
 #endif // FUNCIONES_H_INCLUDED
