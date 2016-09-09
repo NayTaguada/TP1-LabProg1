@@ -1,11 +1,29 @@
 
 #include "funciones.h"
 
+/** \brief funcion que suma dos numeros ingresados
+ *
+ * \param primer numero ingresado
+ * \param segundo numero ingresado
+ * \return resultado de la suma
+ *
+ */
+
+
 float sumar (float x, float y){
     float resultado;
     resultado = x + y;
     return resultado;
 }
+
+/** \brief funcion que resta dos numeros ingresados
+ *
+ * \param primer numero ingresado
+ * \param segundo numero ingresado
+ * \return resta de los numeros
+ *
+ */
+
 
 float restar(float x, float y){
     float resultado;
@@ -13,17 +31,44 @@ float restar(float x, float y){
     return resultado;
 }
 
+/** \brief funcion que divide dos numeros ingresados
+ *
+ * \param primer numero ingresado
+ * \param segundo numero ingresado
+ * \return resultado de division
+ *
+ */
+
+
 float dividir(float x, float y){
     float resultado;
     resultado = x / y;
     return resultado;
 }
 
+/** \brief funcion que multiplica dos numeros ingresados
+ *
+ * \param primer numero ingresado
+ * \param segundo numero ingresado
+ * \return resultado de la multiplicacion
+ *
+ */
+
+
 float multiplicar(float x, float y){
     float resultado;
     resultado = x * y;
     return resultado;
 }
+
+/** \brief funcion que da el factorial del primer numero ingresado
+ *
+ * \param primer numero ingresado
+ * \param
+ * \return resultado del factorial del primer numero
+ *
+ */
+
 
 float factor(float x){
     float resultado = 0;
@@ -34,6 +79,15 @@ float factor(float x){
         }
     return resultado;
 }
+
+/** \brief funcion que permite visualizar el menu
+ *
+ * \param opcion ingresada
+ * \param
+ * \return la opcion seleccionada
+ *
+ */
+
 
 int menu(int opcion){
 
